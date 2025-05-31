@@ -195,8 +195,14 @@
   .m-\[5px\] {
     margin: 5px;
   }
+  .mt-\[1px\] {
+    margin-top: 1px;
+  }
   .mt-\[5px\] {
     margin-top: 5px;
+  }
+  .mt-\[10px\] {
+    margin-top: 10px;
   }
   .mb-4 {
     margin-bottom: calc(var(--spacing) * 4);
@@ -301,6 +307,9 @@
   .p-10 {
     padding: calc(var(--spacing) * 10);
   }
+  .p-\[1\] {
+    padding: 1;
+  }
   .p-\[4px\] {
     padding: 4px;
   }
@@ -337,8 +346,14 @@
   .pt-\[5px\] {
     padding-top: 5px;
   }
+  .pt-\[10px\] {
+    padding-top: 10px;
+  }
   .pl-\[4px\] {
     padding-left: 4px;
+  }
+  .pl-\[10px\] {
+    padding-left: 10px;
   }
   .pl-\[41px\] {
     padding-left: 41px;
