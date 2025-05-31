@@ -207,14 +207,8 @@
   .m-\[15px\] {
     margin: 15px;
   }
-  .mt-\[1px\] {
-    margin-top: 1px;
-  }
   .mt-\[5\] {
     margin-top: 5;
-  }
-  .mt-\[5px\] {
-    margin-top: 5px;
   }
   .mt-\[8p\] {
     margin-top: 8p;
@@ -258,9 +252,6 @@
   .mb-\[15px\] {
     margin-bottom: 15px;
   }
-  .ml-\[10\] {
-    margin-left: 10;
-  }
   .ml-\[10px\] {
     margin-left: 10px;
   }
@@ -273,8 +264,23 @@
   .table {
     display: table;
   }
+  .h-4 {
+    height: calc(var(--spacing) * 4);
+  }
   .h-screen {
     height: 100vh;
+  }
+  .w-1 {
+    width: calc(var(--spacing) * 1);
+  }
+  .w-4 {
+    width: calc(var(--spacing) * 4);
+  }
+  .w-5 {
+    width: calc(var(--spacing) * 5);
+  }
+  .w-6 {
+    width: calc(var(--spacing) * 6);
   }
   .w-7 {
     width: calc(var(--spacing) * 7);
@@ -287,6 +293,15 @@
   }
   .w-\[1\] {
     width: 1;
+  }
+  .w-\[2\] {
+    width: 2;
+  }
+  .w-\[3\] {
+    width: 3;
+  }
+  .w-\[3px\] {
+    width: 3px;
   }
   .w-\[5\] {
     width: 5;
@@ -335,9 +350,6 @@
   }
   .justify-start {
     justify-content: flex-start;
-  }
-  .gap-\[5px\] {
-    gap: 5px;
   }
   .gap-\[6px\] {
     gap: 6px;
@@ -394,9 +406,6 @@
   .border-red-500 {
     border-color: var(--color-red-500);
   }
-  .bg-\[custom-red\] {
-    background-color: custom-red;
-  }
   .bg-black {
     background-color: var(--color-black);
   }
@@ -445,23 +454,11 @@
   .p-10 {
     padding: calc(var(--spacing) * 10);
   }
-  .p-\[1\] {
-    padding: 1;
-  }
-  .p-\[4px\] {
-    padding: 4px;
-  }
-  .p-\[5\] {
-    padding: 5;
-  }
   .p-\[5px\] {
     padding: 5px;
   }
   .p-\[6px\] {
     padding: 6px;
-  }
-  .p-\[7px\] {
-    padding: 7px;
   }
   .p-\[10px\] {
     padding: 10px;
@@ -469,35 +466,11 @@
   .p-\[15px\] {
     padding: 15px;
   }
-  .p-\[px\] {
-    padding: px;
-  }
   .px-4 {
     padding-inline: calc(var(--spacing) * 4);
   }
   .py-2 {
     padding-block: calc(var(--spacing) * 2);
-  }
-  .pt-\[4px\] {
-    padding-top: 4px;
-  }
-  .pt-\[5p\] {
-    padding-top: 5p;
-  }
-  .pt-\[5px\] {
-    padding-top: 5px;
-  }
-  .pt-\[10px\] {
-    padding-top: 10px;
-  }
-  .pl-\[4px\] {
-    padding-left: 4px;
-  }
-  .pl-\[10px\] {
-    padding-left: 10px;
-  }
-  .pl-\[41px\] {
-    padding-left: 41px;
   }
   .text-center {
     text-align: center;
