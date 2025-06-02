@@ -6,39 +6,49 @@
     <title>Document</title>
     <link rel="stylesheet" href="/public/assets/css/style.css">
 </head>
-<body class="">
-    <header>
-        <div class="header-principal bg-blue-300 p-[6px] ">
+<body class="font-sans bg-blue-200">
+    <header class=" rounded-[20px]">
+        <div class="header-principal flex justify-between bg-blue-400  h-[100px]">
 
-                <div class="img flex justify-end mt-[10px] ml-[10px] mr-[] gap-[6px] ">
-                    <img class=" w-7 " src="/public/img/facebook-logo.png" alt="">
-                    <img class=" w-7" src="/public/img/Instagram_icon.png" alt="">
+                <div class="principal-img ml-[20px] mt-[10px]">
+                    <img class="w-20 h-20" src="/public/img/trivago-logo.png" alt="">
                 </div>
-                <div class="contac flex justify-start justify-center">
-                <img src="" alt=""><p>+58 4243548102</p>
-                <img src="" alt=""><p>hotelreservetion@gmail.com</p>
+                <div class="principal-conte flex pl-[30px] mr-[100px] mt-[30px] gap-25 font-medium text-[18px] ">
+                    <details>
+                        <summary class="flex items-center justify-center bg-blue-300 w-[180px] h-[45px] border-solid border-blue-700 border-[2px] cursor-pointer">Habitaciones</summary>
+                        <ul class="list-none bg-gray-500/30 border-solid border-gray-500 border-[2px] w-[180px] leading-[1.6em]">
+                            <li class=" flex justify-center">Suite Precidencia</li>
+                            <li class=" flex justify-center">Suite Junior</li>
+                            <li class=" flex justify-center">Habitacion Deluxe</li>
+                            <li class=" flex justify-center">Habitacion Estandar</li>
+                        </ul>
+                    </details>
+                    <details>
+                        <summary class="flex items-center justify-center bg-blue-300 w-[170px] h-[45px] border-solid border-blue-700 border-[2px] cursor-pointer">Servicio</summary>
+
+                        <ul class="list-none  bg-gray-500/50">
+                            <li class=" flex justify-center">1</li>
+                            <li class=" flex justify-center">2</li>
+                            <li class=" flex justify-center">3</li>
+                            <li class=" flex justify-center">4</li>
+                        </ul>
+                    </details>
+                    <a href="">Galerias</a>
+                    <a href="">Inicia Sesion</a>
+                    <a href="">Haz una Reservacion</a>
                 </div>
         </div>
-        <div class="header-secundario ">
-                <img src="" alt=""> 
-                <details>
-                    <summary>Habitaciones</summary>
-                    <ul>
-                        <li>Suite Presidencial</li>
-                        <li>Suite Junior</li>
-                        <li>Habitacion Deluxe</li>
-                        <li>Habitacion Estandar</li>
-                    </ul>
-                </details>
-                <details>
-                    <summary>Servicios</summary>
-                    <ul>
-                        <li>1</li>
-                        <li>2</li>
-                        <li>3</li>
-                        <li>4</li>
-                    </ul>
-                </details>
+        <div class="header-secundario flex flex-row justify-between  bg-blue-300  p-[10px]">
+            
+            <div class="secundario-contac flex gap-[10px] ml-[20px] ">
+                <img class=" w-4 h-4 mt-[6px]" src="/public/img/telefono.png" alt=""><a class="text-[15px]" href="">+58-4243548102</a>
+                <img class=" w-4 h-4 mt-[4px]" src="/public/img/email.png" alt=""><a class="text-[15px]" href="">hotelreservetion@gmail.com</a>
+            </div>
+
+            <div class="secundario-img flex gap-[15px] mr-[30px] ">
+                <img class=" w-5 h-5 " src="/public/img/facebook-logo.png" alt="">
+                <img class=" w-5 h-5 " src="/public/img/Instagram_icon.png" alt="">
+            </div>
         </div>
     </header>
     
