@@ -388,6 +388,9 @@
   .border-black {
     border-color: var(--color-black);
   }
+  .border-blue-700 {
+    border-color: var(--color-blue-700);
+  }
   .border-gray-500 {
     border-color: var(--color-gray-500);
   }
