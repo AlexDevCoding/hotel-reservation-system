@@ -221,8 +221,14 @@
   .mt-\[30px\] {
     margin-top: 30px;
   }
+  .mr-\[00px\] {
+    margin-right: 00px;
+  }
   .mr-\[30px\] {
     margin-right: 30px;
+  }
+  .mr-\[90px\] {
+    margin-right: 90px;
   }
   .mr-\[100px\] {
     margin-right: 100px;
@@ -334,6 +340,12 @@
   }
   .justify-center {
     justify-content: center;
+  }
+  .gap-22 {
+    gap: calc(var(--spacing) * 22);
+  }
+  .gap-24 {
+    gap: calc(var(--spacing) * 24);
   }
   .gap-25 {
     gap: calc(var(--spacing) * 25);
