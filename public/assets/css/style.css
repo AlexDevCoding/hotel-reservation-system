@@ -8,6 +8,7 @@
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
     --color-red-500: oklch(63.7% 0.237 25.331);
+    --color-amber-200: oklch(92.4% 0.12 95.746);
     --color-amber-300: oklch(87.9% 0.169 91.605);
     --color-amber-400: oklch(82.8% 0.189 84.429);
     --color-amber-500: oklch(76.9% 0.188 70.08);
@@ -209,47 +210,17 @@
   .mt-\[4px\] {
     margin-top: 4px;
   }
-  .mt-\[5px\] {
-    margin-top: 5px;
-  }
-  .mt-\[6px\] {
-    margin-top: 6px;
-  }
   .mt-\[10px\] {
     margin-top: 10px;
   }
-  .mt-\[20\] {
-    margin-top: 20;
-  }
-  .mt-\[30px\] {
-    margin-top: 30px;
-  }
-  .mr-\[00px\] {
-    margin-right: 00px;
-  }
   .mr-\[30px\] {
     margin-right: 30px;
-  }
-  .mr-\[90px\] {
-    margin-right: 90px;
-  }
-  .mr-\[100px\] {
-    margin-right: 100px;
   }
   .mb-4 {
     margin-bottom: calc(var(--spacing) * 4);
   }
   .mb-8 {
     margin-bottom: calc(var(--spacing) * 8);
-  }
-  .mb-\[10px\] {
-    margin-bottom: 10px;
-  }
-  .mb-\[15px\] {
-    margin-bottom: 15px;
-  }
-  .mb-\[115\] {
-    margin-bottom: 115;
   }
   .ml-\[20px\] {
     margin-left: 20px;
@@ -259,12 +230,6 @@
   }
   .table {
     display: table;
-  }
-  .h-4 {
-    height: calc(var(--spacing) * 4);
-  }
-  .h-5 {
-    height: calc(var(--spacing) * 5);
   }
   .h-9 {
     height: calc(var(--spacing) * 9);
@@ -281,17 +246,11 @@
   .h-\[1rem\] {
     height: 1rem;
   }
-  .h-\[5px\] {
-    height: 5px;
-  }
   .h-\[20px\] {
     height: 20px;
   }
   .h-\[45px\] {
     height: 45px;
-  }
-  .h-\[50px\] {
-    height: 50px;
   }
   .h-\[60px\] {
     height: 60px;
@@ -301,12 +260,6 @@
   }
   .h-screen {
     height: 100vh;
-  }
-  .w-4 {
-    width: calc(var(--spacing) * 4);
-  }
-  .w-5 {
-    width: calc(var(--spacing) * 5);
   }
   .w-9 {
     width: calc(var(--spacing) * 9);
@@ -320,17 +273,11 @@
   .w-\[1rem\] {
     width: 1rem;
   }
-  .w-\[5\] {
-    width: 5;
-  }
-  .w-\[5px\] {
-    width: 5px;
-  }
   .w-\[20px\] {
     width: 20px;
   }
-  .w-\[100px\] {
-    width: 100px;
+  .w-\[50px\] {
+    width: 50px;
   }
   .w-\[110px\] {
     width: 110px;
@@ -340,6 +287,12 @@
   }
   .w-\[180px\] {
     width: 180px;
+  }
+  .w-\[200px\] {
+    width: 200px;
+  }
+  .w-\[px\] {
+    width: px;
   }
   .border-collapse {
     border-collapse: collapse;
@@ -368,32 +321,14 @@
   .justify-center {
     justify-content: center;
   }
-  .gap-7 {
-    gap: calc(var(--spacing) * 7);
-  }
-  .gap-15 {
-    gap: calc(var(--spacing) * 15);
-  }
   .gap-22 {
     gap: calc(var(--spacing) * 22);
-  }
-  .gap-24 {
-    gap: calc(var(--spacing) * 24);
-  }
-  .gap-25 {
-    gap: calc(var(--spacing) * 25);
-  }
-  .gap-30 {
-    gap: calc(var(--spacing) * 30);
   }
   .gap-50 {
     gap: calc(var(--spacing) * 50);
   }
   .gap-\[10px\] {
     gap: 10px;
-  }
-  .gap-\[15px\] {
-    gap: 15px;
   }
   .gap-\[20px\] {
     gap: 20px;
@@ -405,12 +340,6 @@
       margin-inline-end: calc(calc(var(--spacing) * 4) * calc(1 - var(--tw-space-x-reverse)));
     }
   }
-  .rounded-2xl {
-    border-radius: var(--radius-2xl);
-  }
-  .rounded-\[10px\] {
-    border-radius: 10px;
-  }
   .rounded-\[20px\] {
     border-radius: 20px;
   }
@@ -420,17 +349,9 @@
   .rounded-lg {
     border-radius: var(--radius-lg);
   }
-  .rounded-b-lg {
-    border-bottom-right-radius: var(--radius-lg);
-    border-bottom-left-radius: var(--radius-lg);
-  }
   .border {
     border-style: var(--tw-border-style);
     border-width: 1px;
-  }
-  .border-\[2px\] {
-    border-style: var(--tw-border-style);
-    border-width: 2px;
   }
   .border-solid {
     --tw-border-style: solid;
@@ -439,20 +360,20 @@
   .border-black {
     border-color: var(--color-black);
   }
-  .border-blue-700 {
-    border-color: var(--color-blue-700);
-  }
-  .border-gray-500 {
-    border-color: var(--color-gray-500);
-  }
   .border-red-500 {
     border-color: var(--color-red-500);
+  }
+  .bg-amber-200 {
+    background-color: var(--color-amber-200);
   }
   .bg-amber-300 {
     background-color: var(--color-amber-300);
   }
   .bg-amber-950 {
     background-color: var(--color-amber-950);
+  }
+  .bg-black {
+    background-color: var(--color-black);
   }
   .bg-blue-200 {
     background-color: var(--color-blue-200);
@@ -468,21 +389,6 @@
   }
   .bg-gray-100 {
     background-color: var(--color-gray-100);
-  }
-  .bg-gray-500 {
-    background-color: var(--color-gray-500);
-  }
-  .bg-gray-500\/30 {
-    background-color: color-mix(in srgb, oklch(55.1% 0.027 264.364) 30%, transparent);
-    @supports (color: color-mix(in lab, red, red)) {
-      background-color: color-mix(in oklab, var(--color-gray-500) 30%, transparent);
-    }
-  }
-  .bg-gray-500\/50 {
-    background-color: color-mix(in srgb, oklch(55.1% 0.027 264.364) 50%, transparent);
-    @supports (color: color-mix(in lab, red, red)) {
-      background-color: color-mix(in oklab, var(--color-gray-500) 50%, transparent);
-    }
   }
   .bg-gray-700 {
     background-color: var(--color-gray-700);
@@ -508,9 +414,6 @@
   .py-2 {
     padding-block: calc(var(--spacing) * 2);
   }
-  .pl-\[30px\] {
-    padding-left: 30px;
-  }
   .text-center {
     text-align: center;
   }
@@ -525,26 +428,12 @@
     font-size: var(--text-xl);
     line-height: var(--tw-leading, var(--text-xl--line-height));
   }
-  .text-\[15px\] {
-    font-size: 15px;
-  }
   .text-\[18px\] {
     font-size: 18px;
-  }
-  .text-\[20px\] {
-    font-size: 20px;
-  }
-  .leading-\[1\.6em\] {
-    --tw-leading: 1.6em;
-    line-height: 1.6em;
   }
   .leading-\[1\.7em\] {
     --tw-leading: 1.7em;
     line-height: 1.7em;
-  }
-  .leading-\[1\.em\] {
-    --tw-leading: 1.em;
-    line-height: 1.em;
   }
   .font-bold {
     --tw-font-weight: var(--font-weight-bold);
@@ -557,12 +446,6 @@
   .font-semibold {
     --tw-font-weight: var(--font-weight-semibold);
     font-weight: var(--font-weight-semibold);
-  }
-  .text-\[px\] {
-    color: px;
-  }
-  .text-amber-300 {
-    color: var(--color-amber-300);
   }
   .text-gray-600 {
     color: var(--color-gray-600);
@@ -600,17 +483,6 @@
     --tw-duration: 0.5s;
     transition-duration: 0.5s;
   }
-  .duration-\[1s\] {
-    --tw-duration: 1s;
-    transition-duration: 1s;
-  }
-  .hover\:bg-amber-400 {
-    &:hover {
-      @media (hover: hover) {
-        background-color: var(--color-amber-400);
-      }
-    }
-  }
   .hover\:bg-amber-600 {
     &:hover {
       @media (hover: hover) {
@@ -632,45 +504,11 @@
       }
     }
   }
-  .hover\:bg-violet-600 {
-    &:hover {
-      @media (hover: hover) {
-        background-color: var(--color-violet-600);
-      }
-    }
-  }
-  .hover\:bg-white {
-    &:hover {
-      @media (hover: hover) {
-        background-color: var(--color-white);
-      }
-    }
-  }
-  .hover\:text-white {
-    &:hover {
-      @media (hover: hover) {
-        color: var(--color-white);
-      }
-    }
-  }
   .hover\:underline {
     &:hover {
       @media (hover: hover) {
         text-decoration-line: underline;
       }
-    }
-  }
-  .hover\:outline-2 {
-    &:hover {
-      @media (hover: hover) {
-        outline-style: var(--tw-outline-style);
-        outline-width: 2px;
-      }
-    }
-  }
-  .focus\:underline {
-    &:focus {
-      text-decoration-line: underline;
     }
   }
   .focus\:outline-2 {
@@ -679,56 +517,14 @@
       outline-width: 2px;
     }
   }
-  .focus\:outline-4 {
-    &:focus {
-      outline-style: var(--tw-outline-style);
-      outline-width: 4px;
-    }
-  }
   .focus\:outline-offset-2 {
     &:focus {
       outline-offset: 2px;
     }
   }
-  .focus\:outline-amber-300 {
-    &:focus {
-      outline-color: var(--color-amber-300);
-    }
-  }
   .focus\:outline-amber-500 {
     &:focus {
       outline-color: var(--color-amber-500);
-    }
-  }
-  .focus\:outline-blue-500 {
-    &:focus {
-      outline-color: var(--color-blue-500);
-    }
-  }
-  .focus\:outline-violet-500 {
-    &:focus {
-      outline-color: var(--color-violet-500);
-    }
-  }
-  .active\:bg-amber-500 {
-    &:active {
-      background-color: var(--color-amber-500);
-    }
-  }
-  .active\:bg-blue-700 {
-    &:active {
-      background-color: var(--color-blue-700);
-    }
-  }
-  .active\:bg-violet-700 {
-    &:active {
-      background-color: var(--color-violet-700);
-    }
-  }
-  .active\:outline-2 {
-    &:active {
-      outline-style: var(--tw-outline-style);
-      outline-width: 2px;
     }
   }
   .sm\:justify-center {
